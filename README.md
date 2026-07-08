@@ -2,25 +2,26 @@
 
 # 📏 STM32 Ultrasonic Distance Measurement System
 
-### Real-Time Distance Measurement using **STM32F103C8T6 (Blue Pill)** and **HC-SR04 Ultrasonic Sensor**
+### Real-Time Distance Measurement using **STM32F103C8T6 (Blue Pill)** & **HC-SR04 Ultrasonic Sensor**
 
-**Embedded Systems • ARM Cortex-M3 • STM32CubeIDE • HAL Drivers • Real-Time Firmware**
+> **A professional embedded systems project demonstrating real-time distance measurement using STM32 HAL, timers, and ultrasonic sensor interfacing.**
 
-<p>
+<br>
 
 ![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge)
-
-![MCU](https://img.shields.io/badge/STM32-STM32F103C8T6-success?style=for-the-badge)
-
+![Standard](https://img.shields.io/badge/Standard-C99-informational?style=for-the-badge)
+![MCU](https://img.shields.io/badge/MCU-STM32F103C8T6-success?style=for-the-badge)
 ![Core](https://img.shields.io/badge/Core-ARM_Cortex--M3-red?style=for-the-badge)
-
-![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-orange?style=for-the-badge)
-
 ![Framework](https://img.shields.io/badge/Framework-STM32_HAL-green?style=for-the-badge)
-
+![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-orange?style=for-the-badge)
+![Sensor](https://img.shields.io/badge/Sensor-HC--SR04-yellow?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-</p>
+<br><br>
+
+**Embedded Systems • Firmware Development • ARM Cortex-M3 • STM32 HAL • Real-Time Systems • Sensor Interfacing**
+
+</div>
 
 *A practical embedded systems project demonstrating accurate real-time distance measurement using the STM32F103C8T6 microcontroller and the HC-SR04 ultrasonic sensor. The project focuses on firmware development, hardware interfacing, timer-based pulse measurement, and professional engineering practices.*
 
