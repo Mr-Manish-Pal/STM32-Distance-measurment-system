@@ -1,256 +1,180 @@
 <div align="center">
 
-#  STM32 Distance measurment system
+# 📏 STM32 Ultrasonic Distance Measurement System
 
-### Professional Embedded Systems Project using **STM32F103C8T6 (Blue Pill)** & **ST-Link V2**
+### Real-Time Distance Measurement using **STM32F103C8T6 (Blue Pill)** and **HC-SR04 Ultrasonic Sensor**
 
-Build • Flash • Debug • Learn
+**Embedded Systems • ARM Cortex-M3 • STM32CubeIDE • HAL Drivers • Real-Time Firmware**
 
 <p>
-![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-STM32CubeIDE-success?style=for-the-badge)
-![MCU](https://img.shields.io/badge/MCU-STM32F103C8T6-green?style=for-the-badge)
-![ARM](https://img.shields.io/badge/ARM-Cortex--M3-red?style=for-the-badge)
+
+![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge)
+
+![MCU](https://img.shields.io/badge/STM32-STM32F103C8T6-success?style=for-the-badge)
+
+![Core](https://img.shields.io/badge/Core-ARM_Cortex--M3-red?style=for-the-badge)
+
+![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-orange?style=for-the-badge)
+
+![Framework](https://img.shields.io/badge/Framework-STM32_HAL-green?style=for-the-badge)
+
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 </p>
 
-**A complete beginner-friendly STM32 project demonstrating professional firmware development workflow using STM32CubeIDE and ST-Link V2.**
+*A practical embedded systems project demonstrating accurate real-time distance measurement using the STM32F103C8T6 microcontroller and the HC-SR04 ultrasonic sensor. The project focuses on firmware development, hardware interfacing, timer-based pulse measurement, and professional engineering practices.*
 
 </div>
 
-## 🎥 Watch Full Tutorial on YouTube
+---
 
-<p align="center">
-  <a href="https://youtu.be/qKnp0oNrI6M">
-    <img src="https://img.youtube.com/vi/qKnp0oNrI6M/maxresdefault.jpg" alt="STM32 Programming Tutorial" width="850">
-  </a>
-</p>
+# 📖 Project Overview
 
-<p align="center">
-  <b>📺 Click the thumbnail above to watch the complete tutorial.</b>
-</p>
+This project implements a **real-time ultrasonic distance measurement system** using the **STM32F103C8T6 (Blue Pill)** development board.
+
+The firmware generates a precise trigger pulse for the HC-SR04 sensor, measures the echo pulse width using STM32 peripherals, calculates the distance, and continuously updates the measured value.
+
+Rather than being only a college experiment, this repository is organized as a **professional embedded systems project**, demonstrating clean firmware architecture, hardware interfacing, modular code organization, and documentation suitable for engineering portfolios.
 
 ---
 
-# 📖 Overview
+## ✨ Project Highlights
 
-This repository demonstrates the complete firmware development workflow for the **STM32F103C8T6 Blue Pill** microcontroller.
-
-The objective of this project is not only to upload a program into the microcontroller, but also to understand the engineering workflow followed in real embedded systems development.
-
-This repository is structured like professional open-source projects so that students, beginners, and recruiters can easily understand the implementation.
-
----
-
-# 🎬 Video Tutorial
-
-> Click the thumbnail below to watch the complete tutorial.
-
-[![Watch on YouTube](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+* Real-time distance measurement
+* STM32 HAL-based firmware
+* ARM Cortex-M3 microcontroller
+* HC-SR04 ultrasonic sensor interfacing
+* Accurate pulse timing
+* Embedded C implementation
+* Modular firmware architecture
+* Beginner-friendly project structure
+* Well-documented source code
+* GitHub portfolio ready
 
 ---
 
-# 🖼 Project Preview
+## 🎯 Project Objectives
 
-project images.
+The primary objectives of this project are to:
 
-<p align="center">
-  <img src="image-1.png" width="100%" alt="Project Banner">
-</p>
-
-<p align="center">
-  <img src="image-2.png" width="100%" alt="STM32 Distance Measurement">
-</p>
-
-<p align="center">
-  <img src="image-3.png" width="100%" alt="Hardware Setup">
-</p>
-
+* Learn STM32 firmware development
+* Understand ultrasonic sensor interfacing
+* Measure pulse width accurately
+* Implement timer-based calculations
+* Develop clean embedded software
+* Practice professional project documentation
+* Build an industry-style GitHub portfolio project
 
 ---
 
-# ✨ Key Features
+## 🛠 Hardware Used
 
-- Professional STM32 project structure
-- Beginner-friendly explanation
-- Complete STM32CubeIDE project
-- ST-Link V2 programming
-- Clean and well-commented Embedded C code
-- Easy hardware setup
-- Debug-ready project
-- GitHub portfolio ready
-- Industry-style documentation
-- Open-source and easy to understand
-
----
-
-# 🎯 What You'll Learn
-
-- STM32 Architecture
-- Blue Pill Development Board
-- ST-Link V2 Programming
-- STM32CubeIDE Workflow
-- Firmware Development
-- Firmware Flashing
-- Hardware Debugging
-- Embedded C Programming
-- Professional Project Organization
-- Git & GitHub Documentation
-
----
-
-# 🛠 Hardware Used
-
-| Component | Description |
-|-----------|-------------|
+| Component     | Description                 |
+| ------------- | --------------------------- |
 | STM32F103C8T6 | Blue Pill Development Board |
-| ST-Link V2 | Programmer / Debugger |
-| Breadboard | Prototype Connections |
-| Jumper Wires | Hardware Connections |
-| USB Cable | Power & Programming |
+| HC-SR04       | Ultrasonic Distance Sensor  |
+| Breadboard    | Hardware Prototyping        |
+| Jumper Wires  | Connections                 |
+| USB Cable     | Programming & Power         |
+| ST-Link V2    | Debugger & Programmer       |
 
 ---
 
-# 💻 Software Used
+## 💻 Software & Tools
 
-| Software | Purpose |
-|----------|---------|
-| STM32CubeIDE | Development Environment |
-| STM32CubeMX | Peripheral Configuration |
-| ST-Link Driver | Programming Support |
-| Git | Version Control |
-| GitHub | Repository Hosting |
-
----
-
-
-# 📚 Documentation
-
-| Document | Description |
-|-----------|-------------|
-| 📦 Hardware | Components used in the project |
-| 🔌 Connections | Wiring and pin mapping |
-| ⚙ Workflow | Development process |
-| ✨ Features | Project capabilities |
-| 📘 Code Explanation | Source code walkthrough |
-| 🎓 Learning Outcome | Skills gained after completing the project |
+* STM32CubeIDE
+* STM32CubeMX
+* STM32 HAL Drivers
+* Embedded C
+* Git
+* GitHub
 
 ---
 
-# 🚀 Quick Start
+## ⚙ Key Features
 
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/STM32-Programming-Blue-Pill.git
-```
-
-### Open Project
-
-- Launch STM32CubeIDE
-- Import Existing Project
-- Build Project
-- Connect ST-Link V2
-- Flash Firmware
-- Verify Output
+* Accurate ultrasonic distance measurement
+* Timer-based pulse detection
+* GPIO control using STM32 HAL
+* Clean firmware structure
+* Easy-to-understand source code
+* Expandable architecture
+* Industry-standard project organization
 
 ---
 
-# 🧠 Skills Demonstrated
+## 🎓 Skills Demonstrated
 
-This project demonstrates practical experience in:
+This repository demonstrates practical knowledge of:
 
-- Embedded Systems
-- Embedded C Programming
-- Firmware Development
-- ARM Cortex-M3
-- STM32CubeIDE
-- Hardware Debugging
-- GPIO Programming
-- Git Version Control
-- GitHub Documentation
-- Technical Writing
-
----
-
-# 📈 Future Roadmap
-
-- [x] STM32 Setup
-- [x] ST-Link Programming
-- [x] CubeIDE Project
-- [ ] GPIO Projects
-- [ ] UART Communication
-- [ ] PWM Generation
-- [ ] ADC Reading
-- [ ] Timers
-- [ ] Interrupts
-- [ ] SPI
-- [ ] I2C
-- [ ] OLED Display
-- [ ] FreeRTOS
-- [ ] USB Communication
-- [ ] CAN Bus
+* Embedded Systems Programming
+* STM32 Firmware Development
+* ARM Cortex-M3 Architecture
+* GPIO Programming
+* Timer Configuration
+* Sensor Interfacing
+* Real-Time Embedded Programming
+* Hardware Debugging
+* Git Version Control
+* Technical Documentation
 
 ---
 
-# 💼 Why This Project Matters
+## 💼 Why This Project Matters
 
-This repository showcases practical embedded engineering skills beyond writing code.
+This project demonstrates far more than writing code.
 
-It demonstrates:
+It highlights the complete engineering workflow involved in embedded systems development, including:
 
-- Professional documentation
-- Project organization
-- Firmware development workflow
-- Hardware interfacing
-- Debugging techniques
-- Industry-standard development tools
+* Hardware interfacing
+* Firmware design
+* Peripheral configuration
+* Debugging methodology
+* Modular software development
+* Professional documentation
+* Version control using Git
 
-This makes the project suitable for engineering portfolios, internships, and campus placement interviews.
-
----
-
-# 👨‍💻 About the Author
-
-## Manish Pal
-
-**B.Tech Student | Embedded Systems Enthusiast**
-
-Passionate about building real-world embedded systems using STM32, ESP32, Raspberry Pi Pico, and Linux.
-
-Current Focus:
-
-- Embedded Systems
-- Firmware Development
-- IoT
-- Robotics
-- Open Source
-- Linux
-- GitHub Projects
+These are essential skills expected from embedded software engineers during internships and campus placement interviews.
 
 ---
 
-# 🤝 Contributing
+## 📂 Repository Structure
 
-Contributions, suggestions, and improvements are always welcome.
+Additional documentation, hardware connections, source code explanation, project images, and implementation details are available throughout this repository.
 
-If you find an issue, feel free to open an Issue or submit a Pull Request.
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
+Each section has been organized to make the project easy to understand, reproduce, and extend.
 
 ---
 
-<div align="center">
+## 🚀 Future Improvements
 
-## ⭐ If this repository helped you, consider giving it a Star.
+Planned enhancements include:
 
-It motivates me to create more open-source embedded systems projects.
+* OLED Display Integration
+* LCD Interface
+* UART Output
+* Interrupt-Based Measurement
+* FreeRTOS Support
+* Data Logging
+* Wireless Monitoring
+* IoT Integration using ESP32
+* Graphical User Interface
+* Multi-Sensor Support
 
-**Happy Learning! 🚀**
+---
 
-</div>
+## 👨‍💻 Author
+
+**Manish Pal**
+
+**B.Tech (Electronics & Communication Engineering)**
+
+Passionate about building practical embedded systems, firmware development, IoT solutions, robotics, and open-source engineering projects.
+
+---
+
+## ⭐ Support
+
+If this project helped you, consider giving the repository a **Star ⭐**.
+
+It motivates me to continue building high-quality open-source embedded systems projects and sharing engineering knowledge with the community.
