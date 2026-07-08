@@ -86,20 +86,6 @@ The primary objectives of this project are to:
 * Practice professional project documentation
 * Build an industry-style GitHub portfolio project
 
----
-
-## 🛠 Hardware Used
-
-| Component     | Description                 |
-| ------------- | --------------------------- |
-| STM32F103C8T6 | Blue Pill Development Board |
-| HC-SR04       | Ultrasonic Distance Sensor  |
-| Breadboard    | Hardware Prototyping        |
-| Jumper Wires  | Connections                 |
-| USB Cable     | Programming & Power         |
-| ST-Link V2    | Debugger & Programmer       |
-
----
 
 ## 💻 Software & Tools
 
@@ -164,23 +150,6 @@ These are essential skills expected from embedded software engineers during inte
 Additional documentation, hardware connections, source code explanation, project images, and implementation details are available throughout this repository.
 
 Each section has been organized to make the project easy to understand, reproduce, and extend.
-
----
-
-## 🚀 Future Improvements
-
-Planned enhancements include:
-
-* OLED Display Integration
-* LCD Interface
-* UART Output
-* Interrupt-Based Measurement
-* FreeRTOS Support
-* Data Logging
-* Wireless Monitoring
-* IoT Integration using ESP32
-* Graphical User Interface
-* Multi-Sensor Support
 
 ---
 
