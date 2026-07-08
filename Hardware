@@ -1,0 +1,15 @@
+
+---
+
+## 🛠 Hardware Used
+
+| Component     | Description                 |
+| ------------- | --------------------------- |
+| STM32F103C8T6 | Blue Pill Development Board |
+| HC-SR04       | Ultrasonic Distance Sensor  |
+| Breadboard    | Hardware Prototyping        |
+| Jumper Wires  | Connections                 |
+| USB Cable     | Programming & Power         |
+| ST-Link V2    | Debugger & Programmer       |
+
+---
