@@ -87,14 +87,6 @@ The primary objectives of this project are to:
 * Build an industry-style GitHub portfolio project
 
 
-## 💻 Software & Tools
-
-* STM32CubeIDE
-* STM32CubeMX
-* STM32 HAL Drivers
-* Embedded C
-* Git
-* GitHub
 
 ---
 
